@@ -1,36 +1,37 @@
-# Projeto Git Test
+# Git Test
 
-## Descrição
+Este repositório serve como exemplo para criar e configurar um projeto Node.js com `npm init`, configurar um servidor de desenvolvimento com `lite-server`, e iniciar o servidor localmente.
 
-Este repositório contém o passo a passo de como criar e gerenciar múltiplos repositórios locais e sincronizá-los com o GitHub. O processo envolveu a criação de três repositórios locais, a adição e commit de alterações, e a sincronização com um repositório remoto no GitHub.
+## Requisitos
 
-## Passos realizados
+- **PowerShell** (Versão mais recente recomendada)  
+  Baixe a versão mais recente para obter novos recursos e aprimoramentos: [PowerShell](https://aka.ms/PSWindows)
+- **Node.js** e **npm**  
+  Verifique se o Node.js e o npm estão instalados corretamente. Em um terminal, use o comando `node -v` para verificar a versão do Node.js.
 
-1. **Criação de Pastas Locais:**
-   Primeiramente, criei três pastas em meus arquivos locais para organizar o projeto.
+## Inicialização do Projeto
 
-2. **Abrindo o Prompt e Integrando com o Visual Studio Code:**
-   Em seguida, abri o prompt de comando e o integrei com o Visual Studio Code.
+1. No PowerShell, navegue até o diretório do projeto e inicie o `npm init` para configurar o arquivo `package.json`:
 
-3. **Inicialização do Repositório Git Local:**
-   No prompt de comando, utilizei o comando `git init` para inicializar os repositórios locais.
-
-4. **Criação de Repositórios Locais:**
-   Dentro de cada pasta criada, criei três repositórios locais, onde realizei alterações de teste.
-
-5. **Adicionando Alterações:**
-   Após realizar as alterações, executei o comando `git add .` para adicionar todas as modificações ao índice do Git.
-
-6. **Commitando Alterações:**
-   Realizei o commit das alterações, utilizando a seguinte convenção para os commits:
-   - Repositório 1: `git commit -m "Repositório 1"`
-   - Repositório 2: `git commit -m "Repositório 2"`
-   - Repositório 3: `git commit -m "Repositório 3"`
-
-7. **Criação de Repositório Remoto no GitHub:**
-   Em seguida, criei um repositório remoto no GitHub com o link `https://github.com/Lucas420-bot/git-test`.
-
-8. **Conectando o Repositório Local ao GitHub:**
-   Conectei o repositório local ao repositório remoto utilizando o comando:
-   ```bash
-   git remote add origin https://github.com/Lucas420-bot/git-test
+   ```powershell
+   PS C:\LUCAS FRANÇA\workspace\package.json\git-test> npm init
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "descricao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no teste specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas420-bot/-git-test.git"
+  },
+  "keywords": [],
+  "author": "José Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas420-bot/-git-test/issues"
+  },
+  "homepage": "https://github.com/Lucas420-bot/-git-test#readme"
+}
