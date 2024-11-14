@@ -4,8 +4,7 @@ Este repositório serve como exemplo para criar e configurar um projeto Node.js 
 
 ## Requisitos
 
-- **PowerShell** (Versão mais recente recomendada)  
-  Baixe a versão mais recente para obter novos recursos e aprimoramentos: [PowerShell](https://aka.ms/PSWindows)
+
 - **Node.js** e **npm**  
   Verifique se o Node.js e o npm estão instalados corretamente. Em um terminal, use o comando `node -v` para verificar a versão do Node.js.
 
